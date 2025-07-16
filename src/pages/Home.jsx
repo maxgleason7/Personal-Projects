@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className="home">
       <div className="profile-pic">
-        <img src="/images/max.jpeg" alt="Your portrait" />
+        <img src="/max.jpeg" alt="Your portrait" />
       </div>
       <div className="intro">
         <h1>Max William Gleason</h1>
