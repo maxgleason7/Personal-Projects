@@ -1,0 +1,126 @@
+:root {
+  --bg: #181a20;
+  --bg-alt: #23262f;
+  --text: #f4f4f4;
+  --accent: #00bcd4;
+  --sidebar-width: 220px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  background: var(--bg-alt);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.sidebar-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--accent);
+  margin-bottom: 2rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+  background: var(--accent);
+  color: #181a20;
+}
+
+.main-content {
+  flex: 1;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  object-fit: cover;
+  background: #222;
+}
+
+.intro h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.intro h2 {
+  margin: 0.2rem 0 1rem 0;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  background: var(--bg-alt);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+  .app-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    flex-direction: row;
+    width: 100%;
+    min-height: unset;
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+  }
+  .sidebar-title {
+    display: none;
+  }
+  .main-content {
+    padding: 1.5rem 0.5rem;
+  }
+  .home {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
