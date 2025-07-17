@@ -101,10 +101,20 @@ body {
   border-radius: 8px;
 }
 
+.contact-label {
+  font-size: 2.2em; /* Larger than contact info */
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.contact-heading {
+  font-size: 2.5em; /* Even larger for the heading */
+}
+
 .contact-link {
   color: #e0f7ff; /* Very light blue, almost white */
   text-decoration: underline;
-  font-size: 2em; /* Twice as big */
+  font-size: 2em; /* Contact info size */
 }
 
 @media (max-width: 700px) {
