@@ -104,6 +104,7 @@ body {
 .contact-link {
   color: #e0f7ff; /* Very light blue, almost white */
   text-decoration: underline;
+  font-size: 2em; /* Twice as big */
 }
 
 @media (max-width: 700px) {
