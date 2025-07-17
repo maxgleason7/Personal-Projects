@@ -6,7 +6,7 @@ export default function About() {
       <h2>About Me</h2>
       
       <p>
-        A little bit about myself is, Outside of my professional interests, I enjoy gaming, hiking, working out, spending time with friends, and building computers.
+        A little bit about myself: I enjoy designing websites, building computers, hiking, working out, and spending time with friends.
       </p>
       <ul>
         <li><strong>Soft Skills:</strong> Commitment to learning mindset, attention to detail, problem-solving, analytical thinker</li>
