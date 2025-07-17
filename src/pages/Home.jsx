@@ -14,10 +14,9 @@ export default function Home() {
           Welcome to my website! My name is Max Gleason, I am a recent graduate from West Virginia University with a BSBAD in General Business and a minor in Business Cybersecurity.<br />
           I am passionate about IT, cybersecurity, and continuous learning. I am seeking an entry-level opportunity where I can apply my skills, grow professionally, and contribute to a dynamic team.
         </p>
-        <div className="about-me-section about-me-margin">
-          <About />
-        </div>
+        <About />
       </div>
     </section>
   );
 }
+
