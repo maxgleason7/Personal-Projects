@@ -13,6 +13,13 @@ export default function About() {
         <li><strong>Professional Interests:</strong> Network Security, Data Analysis, Ethical Hacking</li>
         <li><strong>Certifications:</strong> Currently pursuing COMPTIA Security+ and Network+</li>
       </ul>
+      <a
+        href="/Max_Gleason_Resume_07_09_2025.docx"
+        download
+        style={{ color: "#00bcd4", fontWeight: "bold", display: "inline-block", marginTop: "1rem" }}
+      >
+        Download My Resume
+      </a>
     </section>
   );
 }
